@@ -1,0 +1,20 @@
+/* css/category-posts.css */
+.category-posts {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(280px, 360px));
+	grid-gap: 40px;
+	justify-content: start;
+}
+
+@media (max-width: 980px) {
+	.category-posts {
+		grid-gap: 30px;
+	}
+}
+
+@media (max-width: 790px) {
+	.category-posts {
+		grid-template-columns: 1fr;
+		grid-gap: 20px;
+	}
+}

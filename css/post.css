@@ -1,0 +1,225 @@
+.single-post {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.post-tags {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+
+.post-tags-icon:hover {
+	color: var(--link-color);
+	transition: color 0.3s ease-in-out;
+}
+
+.post-header .single-post-title {
+	word-break: break-word;
+	margin-bottom: 20px;
+	font-size: 40px;
+	line-height: 1.2;
+}
+
+.post-cover {
+	margin: 40px 0;
+	border-radius: 25px;
+	overflow: hidden;
+	max-width: 800px;
+}
+
+.post-cover img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	display: block;
+}
+
+.related-post-wrapper {
+	background: #F6F8FB;
+	width: 100vw;
+	position: relative;
+	left: 50%;
+	right: 50%;
+	margin-left: -50vw;
+	margin-right: -50vw;
+	padding: 80px 0;
+	padding-bottom: 80px;
+}
+
+.related-posts {
+	margin-top: 40px;
+	margin: 0 auto;
+	max-width: 800px;
+	padding: 0 20px;
+}
+
+.related-posts h2 {
+	margin-bottom: 40px;
+	line-height: 1.2;
+}
+
+.related-posts .posts {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(280px, 360px));
+	grid-gap: 40px;
+	justify-content: start;
+}
+
+.related-posts .post-content {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.related-posts .post-text {
+	margin-bottom: 10px;
+}
+
+.related-posts .post-title {
+	margin-top: 0;
+}
+
+.related-posts .post-cover {
+	margin-bottom: 20px;
+	margin-top: 0;
+}
+
+.related-posts .post-content h2 {
+	font-size: 22px;
+}
+
+.post-content {
+	max-width: 760px;
+	margin: 20px auto;
+	margin-bottom: 80px;
+	font-size: 18px;
+	line-height: 1.6;
+	color: var(--text-color, #333);
+	overflow: auto;
+}
+
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
+	margin: 20px 0 10px;
+	font-weight: bold;
+	line-height: 1.3;
+}
+
+.post-content h1 {
+	font-size: 32px;
+}
+
+.post-content h2 {
+	font-size: 28px;
+}
+
+.post-content h3 {
+	font-size: 24px;
+}
+
+.post-content h4 {
+	font-size: 20px;
+}
+
+.post-content h5 {
+	font-size: 18px;
+}
+
+.post-content h6 {
+	font-size: 16px;
+}
+
+.post-content p {
+	margin: 0 0 15px;
+}
+
+.post-content ul,
+.post-content ol {
+	margin: 15px 0;
+	padding-left: 40px;
+	list-style: disc;
+	/* Для ul */
+}
+
+.post-content ol {
+	list-style: decimal;
+}
+
+.post-content li {
+	margin-bottom: 10px;
+}
+
+.post-content img {
+	max-width: 100%;
+	height: auto;
+	margin: 15px 0;
+	border-radius: 25px;
+	display: block;
+}
+
+.post-content a {
+	color: var(--link-color, #0073aa);
+	text-decoration: underline;
+}
+
+.post-content a:hover {
+	color: var(--link-hover-color, #005177);
+}
+
+.post-content .wp-block-image {
+	margin: 15px 0;
+}
+
+.post-content .aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.post-content .alignleft {
+	float: left;
+	margin: 15px 15px 15px 0;
+}
+
+.post-content .alignright {
+	float: right;
+	margin: 15px 0 15px 15px;
+}
+
+/* Адаптивность для узких экранов */
+@media (max-width: 768px) {
+	.post-content {
+		font-size: 16px;
+		/* Меньше для мобильных */
+		margin-bottom: 40px;
+	}
+
+	.post-content img,
+	.post-content .alignleft,
+	.post-content .alignright {
+		float: none;
+		/* Убираем обтекание */
+		margin: 15px auto;
+		display: block;
+	}
+}
+
+@media(max-width: 550px) {
+	.related-post-wrapper {
+		padding-bottom: 40px;
+		padding-top: 40px;
+	}
+
+	.related-posts {
+		padding: 0 10px;
+	}
+
+	.post-header .single-post-title {
+		font-size: 30px;
+	}
+}
