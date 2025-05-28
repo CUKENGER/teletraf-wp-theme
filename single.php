@@ -51,7 +51,7 @@
                   if (WP_DEBUG) {
                     error_log('SVG not found: ' . $icon_path);
                   }
-                }с
+                }
                 ?>
                 <span class="post-category-name"><?php echo $category_name; ?></span>
               </a>

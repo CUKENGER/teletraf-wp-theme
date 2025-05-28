@@ -76,12 +76,12 @@
                 <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <mask id="mask0_2075_1612" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="8"
                     height="14">
-                    <rect width="8" height="14" fill="#808080" />
+                    <rect width="8" height="14" fill="currentColor" />
                   </mask>
                   <g mask="url(#mask0_2075_1612)">
                     <path
                       d="M1.37474 1.21858C1.77895 0.895216 2.35761 0.937141 2.71263 1.29866L2.78099 1.37483L6.78099 6.37483C7.07316 6.74005 7.07316 7.25961 6.78099 7.62483L2.78099 12.6248C2.43597 13.056 1.80598 13.1261 1.37474 12.7811C0.943797 12.436 0.873625 11.806 1.21849 11.3748L4.71849 6.99983L1.21849 2.62483L1.15892 2.54183C0.884022 2.11614 0.970583 1.54202 1.37474 1.21858Z"
-                      fill="#2288EE" />
+                      fill="currentColor" />
                   </g>
                 </svg>
               </a>

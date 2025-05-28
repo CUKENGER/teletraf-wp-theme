@@ -99,12 +99,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	if (searchIcon) {
 		searchIcon.removeEventListener('click', openSearchOverlay)
-		if (window.innerWidth <= 550) {
+		if (window.innerWidth <= 580) {
 			searchIcon.addEventListener('click', openSearchOverlay)
 		}
 		window.addEventListener('resize', () => {
 			searchIcon.removeEventListener('click', openSearchOverlay)
-			if (window.innerWidth <= 550) {
+			if (window.innerWidth <= 580) {
 				searchIcon.addEventListener('click', openSearchOverlay)
 			}
 		})

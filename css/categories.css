@@ -29,9 +29,8 @@
 	line-height: 1.2;
 	height: 50px;
 	font-weight: bold;
-	border: 1px solid rgba(146, 166, 194, 0.2);
+	border: 1px solid var(--category-border);
 	border-radius: 25px;
-	/* width: min-content; */
 	white-space: nowrap;
 	cursor: pointer;
 	font-size: 16px;
@@ -39,11 +38,11 @@
 }
 
 .category-container.active {
-	background: #F6F8FB;
+	background: var(--category-hover);
 }
 
 .category-container:hover {
-	background: #F6F8FB;
+	background: var(--category-hover);
 	transition: background 0.3s ease-in-out;
 }
 
@@ -52,7 +51,6 @@
 	align-items: center;
 	justify-content: center;
 	min-width: 20px;
-	/* height: 20px; */
 }
 
 .category-icon-container svg {
@@ -61,7 +59,6 @@
 	fill: currentColor;
 	stroke: currentColor;
 	stroke-width: 0.8;
-	/* shape-rendering: crispEdges;	 */
 }
 
 .category-icon {

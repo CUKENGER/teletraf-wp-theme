@@ -8,7 +8,7 @@
     <div class="footer__inner">
       <div>
         <span
-          class='footer-copyright'><?php echo esc_html(get_theme_mod('tgx_footer_copyright', 'TGX | блог © 2025')); ?></span>
+          class='footer-copyright'><?php echo esc_html(get_theme_mod('tgx_footer_copyright', 'TeleTraf | блог © 2025')); ?></span>
       </div>
       <div class="footer-right">
         <?php
