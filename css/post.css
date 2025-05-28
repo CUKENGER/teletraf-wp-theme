@@ -193,7 +193,6 @@
 /* Адаптивность для узких экранов */
 @media (max-width: 768px) {
 	.post-content {
-		font-size: 16px;
 		margin-bottom: 40px;
 	}
 

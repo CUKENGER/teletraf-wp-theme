@@ -36,6 +36,13 @@
   <title><?php echo esc_html($title); ?></title>
   <meta name="description" content="<?php echo esc_attr($description); ?>">
   <meta name="keywords" content="<?php echo esc_attr($keywords); ?>">
+  <?php if (get_site_icon_url()): ?>
+    <link rel="icon" href="<?php echo esc_url(get_site_icon_url()); ?>" type="image/png">
+    <link rel="apple-touch-icon" href="<?php echo esc_url(get_site_icon_url(180)); ?>">
+  <?php else: ?>
+    <link rel="icon" href="<?php echo esc_url(get_template_directory_uri() . '/assets/favicon.ico'); ?>"
+      type="image/x-icon">
+  <?php endif; ?>
   <?php wp_head(); ?>
 </head>
 
