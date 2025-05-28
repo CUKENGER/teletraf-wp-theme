@@ -72,14 +72,14 @@
   <meta name="description" content="<?php echo esc_attr($description); ?>">
   <meta name="keywords" content="<?php echo esc_attr($keywords); ?>">
 
-  <link rel="icon" href="<?php echo esc_url(get_template_directory_uri() . '/assets/images/favicon.ico'); ?>"
+  <link rel="icon" href="<?php echo esc_url(get_template_directory_uri() . '/assets/favicon.ico'); ?>"
     type="image/x-icon">
-  <link rel="icon" href="<?php echo esc_url(get_template_directory_uri() . '/assets/images/favicon.png'); ?>"
+  <link rel="icon" href="<?php echo esc_url(get_template_directory_uri() . '/assets/favicon.png'); ?>"
     type="image/png" sizes="512x512">
   <link rel="apple-touch-icon"
-    href="<?php echo esc_url(get_template_directory_uri() . '/assets/images/apple-touch-icon.png'); ?>" sizes="180x180">
-  <?php if (file_exists(get_template_directory() . '/assets/images/favicon.svg')): ?>
-    <link rel="icon" href="<?php echo esc_url(get_template_directory_uri() . '/assets/images/favicon.svg'); ?>"
+    href="<?php echo esc_url(get_template_directory_uri() . '/assets/apple-touch-icon.png'); ?>" sizes="180x180">
+  <?php if (file_exists(get_template_directory() . '/assets/favicon.svg')): ?>
+    <link rel="icon" href="<?php echo esc_url(get_template_directory_uri() . '/assets/favicon.svg'); ?>"
       type="image/svg+xml">
   <?php endif; ?>
   
